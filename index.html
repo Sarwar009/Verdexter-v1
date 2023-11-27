@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- bootstrap -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <!-- main css -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Demo One</title>
+  </head>
+
+  <body>
+    <!-- navbar start -->
+
+    <nav class="navbar navbar-expand-custom navbar-mainbg d-flex sticky-top">
+      <div class="container">
+        <a class="navbar-brand navbar-logo" href="/">Verdexter</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="1em"
+            viewBox="0 0 448 512"
+          >
+            <path
+              d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+            />
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <div class="hori-selector">
+              <div class="left"></div>
+              <div class="right"></div>
+            </div>
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Single Page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Support</a>
+            </li>
+          </ul>
+          <button class="btn btn-primary px-4 py-2" style="margin-left: 27px">
+            Get Started
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- End navbar -->
+
+    <!-- Hero section -->
+
+    <div class="hero hero-bg" id="hero">
+      <div class="container">
+        <div class="hero-title pb70 pt70">
+          <h6>TECHNOLOGY RELETED CONSULTANCY</h6>
+          <h1>We transform ideas into technology</h1>
+          <h3>
+            We provide the most responsive and functional IT design for
+            companies and businesses worldwide.
+          </h3>
+          <div class="btn btn-info mt-4 px-5 py-3">Read More</div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="hero-content pb70">
+          <div class="row">
+            <div class="col-lg-3 col-sm-6">
+              <div class="card">
+                <div class="card-body p-4">
+                  <h5 class="card-title">Blockchain technology</h5>
+                  <p class="card-text">
+                    Accelerate innovation with world-class tech teams Well match
+                    you to an entire remote team of incredible freelance talent.
+                  </p>
+                  <a href="#" class="btn btn-info">Read more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="card">
+                <div class="card-body p-4">
+                  <h5 class="card-title">Cloud managed services</h5>
+                  <p class="card-text">
+                    Accelerate innovation with world-class tech teams Well match
+                    you to an entire remote team of incredible freelance talent.
+                  </p>
+                  <a href="#" class="btn btn-info">Read more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="card">
+                <div class="card-body p-4">
+                  <h5 class="card-title">IT Consultancy & solution</h5>
+                  <p class="card-text">
+                    Accelerate innovation with world-class tech teams Well match
+                    you to an entire remote team of incredible freelance talent.
+                  </p>
+                  <a href="#" class="btn btn-info">Read more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="card">
+                <div class="card-body p-4">
+                  <h5 class="card-title">Infrastructure Technology</h5>
+                  <p class="card-text">
+                    Accelerate innovation with world-class tech teams Well match
+                    you to an entire remote team of incredible freelance talent.
+                  </p>
+                  <a href="#" class="btn btn-info">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- REASON TO CHOOSE US -->
+
+    <div class="reason pt70 pb70">
+      <div class="container">
+        <h3>REASON TO CHOOSE US</h3>
+        <h1>We provide truly prominent IT solutions.</h1>
+        <div class="row pt70">
+          <div class="col-lg-4 col-sm-6 reason-one">
+            <div class="reason-card">
+              <img
+                src="./assets/images/reason1.jpg"
+                alt=""
+                style="width: 100%; padding: 0; margin: 0"
+              />
+              <div class="reason-content">
+                <h1>Information managemnet system</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam corporis praesentium maxime? Dolore, magnam quis
+                  cumque explicabo commodi eaque maiores sapiente sint ut,
+                  dolorum corporis at animi ducimus sequi voluptatem.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 reason-two">
+            <div class="reason-card">
+              <img
+                src="./assets/images/reason1.jpg"
+                alt=""
+                style="width: 100%; padding: 0; margin: 0"
+              />
+              <div class="reason-content">
+                <h1>Information managemnet system</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam corporis praesentium maxime? Dolore, magnam quis
+                  cumque explicabo commodi eaque maiores sapiente sint ut,
+                  dolorum corporis at animi ducimus sequi voluptatem.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 reason-three">
+            <div class="reason-card">
+              <img
+                src="./assets/images/reason1.jpg"
+                alt=""
+                style="width: 100%; padding: 0; margin: 0"
+              />
+              <div class="reason-content">
+                <h1>Information managemnet system</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam corporis praesentium maxime? Dolore, magnam quis
+                  cumque explicabo commodi eaque maiores sapiente sint ut,
+                  dolorum corporis at animi ducimus sequi voluptatem.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="btn btn-info p5 mt-5">Learn more</div>
+      </div>
+    </div>
+
+    <!-- Counter section -->
+
+    <div class="counter pb70 pt70">
+      <div class="grey-bg c-no container-fluid">
+        <div class="container">
+          <div class="row" id="counter">
+            <div class="col-sm-3 counter-Txt">
+              <div>
+                <img
+                  src="./assets/images/happy.svg"
+                  alt=""
+                  srcset=""
+                  style="width: 6rem"
+                />
+              </div>
+              <div>
+                <span class="counter-value" data-count="356">0</span>
+                <p>Happy clients</p>
+              </div>
+            </div>
+            <div class="col-sm-3 counter-Txt">
+              <div>
+                <img
+                  src="./assets/images/project.svg"
+                  alt=""
+                  srcset=""
+                  style="width: 6rem"
+                />
+              </div>
+              <div>
+                <span class="counter-value" data-count="173">0</span>
+                <p>finished projects</p>
+              </div>
+            </div>
+            <div class="col-sm-3 counter-Txt">
+              <div>
+                <img
+                  src="./assets/images/media.svg"
+                  alt=""
+                  srcset=""
+                  style="width: 6rem"
+                />
+              </div>
+              <div>
+                <span class="counter-value" data-count="1225">0</span>
+                <p>media posts</p>
+              </div>
+            </div>
+            <div class="col-sm-3 counter-Txt margin-bot-35">
+              <div>
+                <img
+                  src="./assets/images/brain.svg"
+                  alt=""
+                  srcset=""
+                  style="width: 6rem"
+                />
+              </div>
+              <div>
+                <span class="counter-value" data-count="1725">0</span>
+                <p>skilled experts</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About section -->
+
+    <div class="about pt70 pb70">
+      <div class="container">
+        <h3 class="about-title">Who we are</h3>
+        <div class="about-content">
+          <div class="row">
+            <div class="col-lg-6 col-sm-12 left-content">
+              <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, molestiae.</h1>
+              <p class="about-details">
+               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quae iusto explicabo labore autem? Aliquid nostrum optio eveniet inventore veniam laboriosam, minus rerum beatae dolorem!
+              </p>
+              <div class="about-contact">
+                <div class="about-contact-name">
+                  <h3>Demo Name</h3>
+                  <p>CEO, DemoOne</p>
+                </div>
+                <div class="about-contact-no">
+                  <h3>0123-456789</h3>
+                  <p>Call to ask any questions</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-sm-12 right-content">
+              <div class="about-img-big">
+                <img src="./assets/images/about-big2.jpg" alt="about-big" />
+              </div>
+              <div class="about-img-sm">
+                <img src="./assets/images/case-4.jpg" alt="about-sm" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- case studies -->
+
+    <div class="case-studies pt70 pb70">
+      <div class="container pt70 pb70">
+        <h3 class="case-studies-title">from our case studies</h3>
+        <h1>We delivered best solution</h1>
+      </div>
+      <section class="Am-img-slider-container">
+        <div class="swiper blog-slider">
+          <div class="swiper-wrapper">
+            <!-- slide -->
+            <div class="swiper-slide">
+              <div class="blog-slider__imgs">
+                <img
+                  class="back-image"
+                  alt=""
+                  src="./assets/images/case-4.jpg"
+                />
+                <div class="movie-image-container">
+                  <img
+                    class="movie-image blog-slider__img"
+                    alt=""
+                    src="./assets/images/case-4.jpg"
+                  />
+                  <div class="overly">
+                    <a href="#" title="-1">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="1em"
+                        height="1em"
+                        preserveAspectRatio="xMidYMid meet"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M8 6.82v10.36c0 .79.87 1.27 1.54.84l8.14-5.18a1 1 0 0 0 0-1.69L9.54 5.98A.998.998 0 0 0 8 6.82z"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-slider__content">
+                <h2 class="blog-slider__title">DATABASE SECURITY</h2>
+                <p class="blog-slider__text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloremque magni quis repellat eaque fuga fugit, obcaecati
+                  ipsum odit ipsa saepe dere.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="blog-slider__imgs">
+                <img
+                  class="back-image blog-slider__backimg"
+                  alt=""
+                  src="./assets/images/case-5.jpg"
+                />
+                <div class="movie-image-container">
+                  <img
+                    class="movie-image blog-slider__img"
+                    alt=""
+                    src="./assets/images/case-5.jpg"
+                  />
+                  <div class="overly">
+                    <a href="#" title="-3">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="1em"
+                        height="1em"
+                        preserveAspectRatio="xMidYMid meet"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M8 6.82v10.36c0 .79.87 1.27 1.54.84l8.14-5.18a1 1 0 0 0 0-1.69L9.54 5.98A.998.998 0 0 0 8 6.82z"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-slider__content">
+                <h2 class="blog-slider__title">DATABASE SECURITY</h2>
+                <p class="blog-slider__text">
+                  Lorem ipsum dolor, sit amet consm dolor, sit amet consectetur
+                  adipisilo natus.ectetur adipisilo natus.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="blog-slider__imgs">
+                <img
+                  class="back-image"
+                  alt=""
+                  src="./assets/images/case-6.jpg"
+                />
+                <div class="movie-image-container">
+                  <img
+                    class="movie-image blog-slider__img"
+                    alt=""
+                    src="./assets/images/case-6.jpg"
+                  />
+                  <div class="overly">
+                    <a href="#" title="-1">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="1em"
+                        height="1em"
+                        preserveAspectRatio="xMidYMid meet"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M8 6.82v10.36c0 .79.87 1.27 1.54.84l8.14-5.18a1 1 0 0 0 0-1.69L9.54 5.98A.998.998 0 0 0 8 6.82z"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-slider__content">
+                <h2 class="blog-slider__title">DATABASE SECURITY</h2>
+                <p class="blog-slider__text">
+                  Lorem ipsum dolor, sit amet consm dolor, sit amet consectetur
+                  adipisilo natus.ectetur adipisilo natus.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="blog-slider__imgs">
+                <img
+                  class="back-image"
+                  alt=""
+                  src="./assets/images/case-4.jpg"
+                />
+                <div class="movie-image-container">
+                  <img
+                    class="movie-image blog-slider__img"
+                    alt=""
+                    src="./assets/images/case-4.jpg"
+                  />
+                  <div class="overly">
+                    <a href="#" title="-1">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="1em"
+                        height="1em"
+                        preserveAspectRatio="xMidYMid meet"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M8 6.82v10.36c0 .79.87 1.27 1.54.84l8.14-5.18a1 1 0 0 0 0-1.69L9.54 5.98A.998.998 0 0 0 8 6.82z"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-slider__content">
+                <h2 class="blog-slider__title">DATABASE SECURITY</h2>
+                <p class="blog-slider__text">
+                  Lorem ipsum dolor, sit amet consm dolor, sit amet consectetur
+                  adipisilo natus.ectetur adipisilo natus.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="blog-slider__imgs">
+                <img
+                  class="back-image blog-slider__backimg"
+                  alt=""
+                  src="./assets/images/case-5.jpg"
+                />
+                <div class="movie-image-container">
+                  <img
+                    class="movie-image blog-slider__img"
+                    alt=""
+                    src="./assets/images/case-5.jpg"
+                  />
+                  <div class="overly">
+                    <a href="#" title="-3">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="1em"
+                        height="1em"
+                        preserveAspectRatio="xMidYMid meet"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M8 6.82v10.36c0 .79.87 1.27 1.54.84l8.14-5.18a1 1 0 0 0 0-1.69L9.54 5.98A.998.998 0 0 0 8 6.82z"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-slider__content">
+                <h2 class="blog-slider__title">DATABASE SECURITY</h2>
+                <p class="blog-slider__text">
+                  Lorem ipsum dolor, sit amet consm dolor, sit amet consectetur
+                  adipisilo natus.ectetur adipisilo natus.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+    </div>
+
+    <!-- our team -->
+
+    <div class="team">
+      <div class="responsive-container-block outer-container">
+        <div class="responsive-container-block inner-container">
+          <h3 class="text-blk team-title">Our Experts</h3>
+          <p class="text-blk section-subhead-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna
+          </p>
+          <div class="responsive-container-block">
+            <div class="swiper team-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="img-wrapper">
+                      <img
+                        src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/aw41.png"
+                      />
+                    </div>
+                    <div class="card-content">
+                      <p class="text-blk name">Roger Rubin</p>
+                      <p class="text-blk position">Lorem ipsum</p>
+                      <p class="text-blk testimonial">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="img-wrapper">
+                      <img
+                        src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/aw42.png"
+                      />
+                    </div>
+                    <div class="card-content">
+                      <p class="text-blk name">Roger Rubin</p>
+                      <p class="text-blk position">Lorem ipsum</p>
+                      <p class="text-blk testimonial">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="img-wrapper">
+                      <img
+                        src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/aw40.png"
+                      />
+                    </div>
+                    <div class="card-content">
+                      <p class="text-blk name">Roger Rubin</p>
+                      <p class="text-blk position">Lorem ipsum</p>
+                      <p class="text-blk testimonial">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="img-wrapper">
+                      <img
+                        src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/aw41.png"
+                      />
+                    </div>
+                    <div class="card-content">
+                      <p class="text-blk name">Roger Rubin</p>
+                      <p class="text-blk position">Lorem ipsum</p>
+                      <p class="text-blk testimonial">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="img-wrapper">
+                      <img
+                        src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/aw42.png"
+                      />
+                    </div>
+                    <div class="card-content">
+                      <p class="text-blk name">Roger Rubin</p>
+                      <p class="text-blk position">Lorem ipsum</p>
+                      <p class="text-blk testimonial">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination container-block"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- testimonials -->
+    <div class="testimonial pt70 pb70">
+      <div class="container">
+        <h3 class="testimonial-title">TESTIMONIAL</h3>
+        <h1 class="headLine">20k+ satisfied clients worldwide</h1>
+      </div>
+      <section class="container">
+        <div class="testimonial mySwiper">
+          <div class="testi-content swiper-wrapper">
+            <div class="slide swiper-slide">
+              <img src="./assets/images/case-4.jpg" alt="" class="image" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aperiam, saepe provident dolorem a quaerat quo error facere
+                nihil deleniti eligendi ipsum adipisci, fugit, architecto amet
+                asperiores doloremque deserunt eum nemo.
+              </p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="2em"
+                viewBox="0 0 448 512"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"
+                />
+              </svg>
+              <div class="details">
+                <span class="name">Marnie Lotter</span>
+                <span class="job">Web Developer</span>
+              </div>
+            </div>
+            <div class="slide swiper-slide">
+              <img src="./assets/images/case-5.jpg" alt="" class="image" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aperiam, saepe provident dolorem a quaerat quo error facere
+                nihil deleniti eligendi ipsum adipisci, fugit, architecto amet
+                asperiores doloremque deserunt eum nemo.
+              </p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="2em"
+                viewBox="0 0 448 512"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"
+                />
+              </svg>
+              <div class="details">
+                <span class="name">Marnie Lotter</span>
+                <span class="job">Web Developer</span>
+              </div>
+            </div>
+            <div class="slide swiper-slide">
+              <img src="./assets/images/case-6.jpg" alt="" class="image" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aperiam, saepe provident dolorem a quaerat quo error facere
+                nihil deleniti eligendi ipsum adipisci, fugit, architecto amet
+                asperiores doloremque deserunt eum nemo.
+              </p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="2em"
+                viewBox="0 0 448 512"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"
+                />
+              </svg>
+              <div class="details">
+                <span class="name">Marnie Lotter</span>
+                <span class="job">Web Developer</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next nav-btn"></div>
+          <div class="swiper-button-prev nav-btn"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+    </div>
+
+    <!-- blog posts -->
+
+    <div class="blog-post pt70">
+      <!-- blog-card -->
+      <div class="blog-post-slider">
+        <div class="blog-post-slider__wrp swiper-wrapper">
+          <div class="blog-post-slider__item swiper-slide">
+            <div class="blog-post-slider__img">
+              <img
+                src="./assets/images/about-sm2.jpg"
+                alt=""
+              />
+            </div>
+            <div class="blog-post-slider__content">
+              <span class="blog-post-slider__code">26 December 2019</span>
+              <div class="blog-post-slider__title">Lorem Ipsum Dolor</div>
+              <div class="blog-post-slider__text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Recusandae voluptate repellendus magni illo ea animi?
+              </div>
+              <a href="#" class="blog-post-slider__button">READ MORE</a>
+            </div>
+          </div>
+          <div class="blog-post-slider__item swiper-slide">
+            <div class="blog-post-slider__img">
+              <img
+                src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/jason-leung-798979-unsplash.webp"
+                alt=""
+              />
+            </div>
+            <div class="blog-post-slider__content">
+              <span class="blog-post-slider__code">26 December 2019</span>
+              <div class="blog-post-slider__title">Lorem Ipsum Dolor2</div>
+              <div class="blog-post-slider__text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Recusandae voluptate repellendus magni illo ea animi?
+              </div>
+              <a href="#" class="blog-post-slider__button">READ MORE</a>
+            </div>
+          </div>
+
+          <div class="blog-post-slider__item swiper-slide">
+            <div class="blog-post-slider__img">
+              <img
+                src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/alessandro-capuzzi-799180-unsplash.webp"
+                alt=""
+              />
+            </div>
+            <div class="blog-post-slider__content">
+              <span class="blog-post-slider__code">26 December 2019</span>
+              <div class="blog-post-slider__title">Lorem Ipsum Dolor</div>
+              <div class="blog-post-slider__text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Recusandae voluptate repellendus magni illo ea animi?
+              </div>
+              <a href="#" class="blog-post-slider__button">READ MORE</a>
+            </div>
+          </div>
+        </div>
+        <div class="blog-post-slider__pagination"></div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer pt70">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="footer-card">
+              <h1>VERDEXTER</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam laudantium autem ex numquam tempora veniam sed!</p>
+              <div class="footer-social">
+                <a href="http://facebook.com"><svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg></a>
+                <a href="http://facebook.com"><svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg></a>
+                <a href="http://facebook.com"><svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="footer-card">
+              <h3>Useful Links</h3>
+              <ul>
+                <li><a href="http://">Terms & Conditions</a></li>
+                <li><a href="http://">Privacy Policy</a></li>
+                <li><a href="http://">Terms & Conditions</a></li>
+                <li><a href="http://">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="footer-card">
+              <h3>Pages</h3>
+              <ul>
+                <li><a href="http://">Home</a></li>
+                <li><a href="http://">About</a></li>
+                <li><a href="http://">Blog</a></li>
+                <li><a href="http://">Team</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="footer-card">
+              <h3>Contact Information</h3>
+              <ul class="footer-contact">
+                <li><span><svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg></span>+0123456789</li>
+                <li><span><svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg></span>qwerty@gmail.com</li>
+                <li><span><svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg></span>00 East West Street, XYZ</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="footer-copyright">© Copyrights 2023. All rights reserved.</p>
+    </div>
+
+    <!-- bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- main js -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
