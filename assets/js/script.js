@@ -232,3 +232,13 @@ collapsibles.forEach((collapsible) => {
     }
   });
 });
+
+
+
+
+
+
+
+
+
+

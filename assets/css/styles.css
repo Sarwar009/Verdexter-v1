@@ -232,6 +232,9 @@ body {
   padding: 10px 60px;
   border-bottom: 2px solid #222;
 }
+.about .about-content {
+  margin-top: 80px;
+}
 .about .about-content .left-content {
   text-align: left;
   font-family: "Barlow", sans-serif;
@@ -1845,4 +1848,193 @@ body {
 .about-page .about-page-counter .row {
   border: none;
   border-radius: 0;
+}
+@media only screen and (max-width: 600px) {
+  .about-page .about-us .right-content {
+    flex-direction: column;
+    height: auto;
+    padding-top: 0;
+  }
+  .about-page .about-us .right-content img {
+    position: initial;
+    height: auto;
+    margin: 25px 0;
+  }
+  .about-page .about-us .right-content .img-2 {
+    margin-bottom: 25px;
+  }
+  .about-page .why-choose-us .right-content {
+    height: auto;
+  }
+  .about-page .why-choose-us .right-content .about-img-sm {
+    position: initial;
+    left: 0;
+    bottom: 0;
+    border: none;
+    margin-top: 25px;
+  }
+  .about-page .why-choose-us .right-content .about-img-sm img {
+    width: 100%;
+  }
+  .about-page .how-it-works .how-it-works-title h1 {
+    margin: 5px 0;
+    font-size: 2.3rem;
+  }
+  .about-page .how-it-works .how-it-works-right-content .right-content-card {
+    padding: 16px;
+  }
+  .about-page .how-it-works .how-it-works-right-content .right-content-card .d-flex {
+    align-items: center;
+  }
+  .about-page .how-it-works .how-it-works-right-content .right-content-card h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "barlow", "sens-serif";
+    margin: 0;
+    height: 75px;
+    margin-right: 18px;
+    padding: 15px;
+    background-color: #e1e8fa;
+    border-radius: 50px;
+  }
+  .about-page .how-it-works .how-it-works-right-content .right-content-card:first-child {
+    margin-top: 30px;
+  }
+  .about-page .how-it-works .how-it-works-right-content .right-content-card:nth-child(2) {
+    margin-left: 0;
+  }
+  .about-page .how-it-works .how-it-works-right-content .right-content-card:nth-child(3) {
+    margin-left: 0;
+  }
+  .about-page .how-it-works .how-it-works-left-content div {
+    display: flex;
+    justify-content: center;
+  }
+  .about-page .team .ab-team-title h1 {
+    font-size: 2.3rem;
+    margin: 5px 8px;
+  }
+  .about-page .blog-post .blog-post-slider__pagination.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 30px 5px;
+  }
+}
+
+.services-page .service-page-hero .service-page-hero-bg {
+  background: linear-gradient(355deg, rgb(255, 255, 255) 40%, rgb(0, 236, 255) 0%);
+}
+.services-page .service-page-hero .ser-page-header {
+  text-align: center;
+  color: #fff;
+}
+.services-page .service-page-hero .ser-page-header .ser-page-header-container {
+  padding: 7rem 20rem 10rem;
+}
+.services-page .service-page-hero .ser-page-header .ser-page-header-container h1 {
+  font-weight: 600;
+  font-size: 3rem;
+  font-family: "barlow", "sens-serif";
+  text-transform: capitalize;
+}
+.services-page .service-page-hero .ser-page-header .ser-page-header-container h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "barlow", "sens-serif";
+}
+.services-page .ser-page-header-content {
+  position: relative;
+}
+.services-page .ser-page-header-content .counter {
+  position: absolute;
+  width: 96%;
+  bottom: -30px;
+  margin: 0 25px;
+}
+.services-page .ser-page-header-content .counter .c-no .row {
+  background-image: url(../images/bg3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.services-page .ser-page-header-content .counter .c-no img {
+  display: none;
+}
+.services-page .ser-page-header-content .counter .c-no .counter-Txt {
+  border: none;
+}
+.services-page .ser-page-header-content .counter .c-no .counter-Txt p,
+.services-page .ser-page-header-content .counter .c-no .counter-Txt span {
+  color: #fff;
+}
+.services-page .ser-page-header-content .counter .c-no .counter-Txt span {
+  font-size: 4rem;
+}
+.services-page .ser-what-we-do {
+  background: linear-gradient(30deg, rgb(255, 255, 255) 20%, rgb(0, 236, 255) 0%);
+}
+.services-page .ser-what-we-do .ser-what-we-do-cards-1 .card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  text-align: center;
+  padding: 25px;
+  margin-top: 30px;
+}
+.services-page .ser-what-we-do .ser-what-we-do-cards-1 .card:first-child {
+  width: 80%;
+  margin-right: 30px;
+}
+.services-page .ser-what-we-do .ser-what-we-do-cards-1 .card:last-child {
+  margin-top: 55px;
+}
+.services-page .ser-what-we-do .ser-what-we-do-cards-2 .card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  text-align: center;
+  padding: 25px;
+  margin-top: 30px;
+}
+.services-page .ser-what-we-do .ser-what-we-do-cards-2 .card:first-child {
+  margin-right: 30px;
+  margin-top: 55px;
+}
+.services-page .ser-what-we-do .ser-what-we-do-cards-2 .card:last-child {
+  width: 80%;
+}
+.services-page .ser-page-our-prog .ser-page-wrapper {
+  text-align: center;
+  background: linear-gradient(355deg, rgb(0, 236, 255) 0%, rgb(255, 255, 255) 50%);
+}
+.services-page .ser-page-our-prog h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "barlow", "sens-serif";
+  text-transform: capitalize;
+  margin: 15px;
+}
+.services-page .ser-page-our-prog h1 {
+  font-weight: 600;
+  font-size: 3rem;
+  font-family: "barlow", "sens-serif";
+  margin: 0 35px 40px;
+}
+.services-page .ser-page-our-prog .row h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "roboto", "sens-serif";
+  margin: 10px;
+  text-transform: capitalize;
+}
+.services-page .ser-page-our-prog .ser-page-our-prog-content p {
+  margin: 10px;
+  text-align: justify;
+}
+.services-page .ser-page-our-prog .ser-page-our-prog-content .prog-bullets {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.services-page .ser-page-our-prog .ser-page-our-prog-content .prog-bullets ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.services-page .ser-page-our-prog .ser-page-our-prog-content .prog-bullets ul li {
+  margin: 10px 0;
 }/*# sourceMappingURL=styles.css.map */
